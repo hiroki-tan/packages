@@ -1,0 +1,66 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+        "spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/apm-install-dir-118616-2691-1utbz02.pt27mvlsor"
+    ]
+  ],
+  "_from": "../d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+  "_id": "autocomplete-tyranoscript@0.4.0",
+  "_inCache": true,
+  "_location": "/autocomplete-tyranoscript",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+    "spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+  "_shasum": "8fbf2a3f72f7ce159b7ab84d6a2dcd7149dcad13",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2691-x7vc7d.ynpv0wwmi/package.tgz",
+  "_where": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/apm-install-dir-118616-2691-1utbz02.pt27mvlsor",
+  "bugs": {
+    "url": "https://github.com/kuromame-kidune/autocomplete-tyranoscript/issues"
+  },
+  "dependencies": {},
+  "description": "TyranoScript language support for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.23.3"
+  },
+  "homepage": "https://github.com/kuromame-kidune/autocomplete-tyranoscript#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "autocomplete-tyranoscript",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# TyranoScript Autocomplete Package\n\nTyranoScript tag, parameter and value autocompletions in Atom  \nThis package depends on [autocomplete-plus](https://github.com/atom-community/autocomplete-plus).  \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuromame-kidune/autocomplete-tyranoscript.git"
+  },
+  "version": "0.4.0"
+}

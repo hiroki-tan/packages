@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+        "spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/apm-install-dir-118616-2709-hnk5mv.tlkqdrt3xr"
+    ]
+  ],
+  "_from": "../d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+  "_id": "autocomplete-tyranoscript-paths@0.1.1",
+  "_inCache": true,
+  "_location": "/autocomplete-tyranoscript-paths",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+    "spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+  "_shasum": "024a749fcbc281ecb851c9ac3e64765dcafffb13",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/d-118616-2709-1hpcu51.y8ciyhkt9/package.tgz",
+  "_where": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/apm-install-dir-118616-2709-hnk5mv.tlkqdrt3xr",
+  "bugs": {
+    "url": "https://github.com/kuromame-kidune/autocomplete-tyranoscript-paths/issues"
+  },
+  "dependencies": {
+    "fuzzaldrin-plus": "^0.4.1",
+    "git-ignore-parser": "^0.0.2",
+    "minimatch": "^3.0.4",
+    "slash": "^1.0.0",
+    "underscore-plus": ">=1.1.2"
+  },
+  "description": "Extended function of TyranoScript Autocomplete Package for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.23.3"
+  },
+  "homepage": "https://github.com/kuromame-kidune/autocomplete-tyranoscript-paths#readme",
+  "license": "MIT",
+  "main": "./lib/autocomplete-paths",
+  "name": "autocomplete-tyranoscript-paths",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# TyranoScript Autocomplete Paths Package\n\nExtended function of TyranoScript Autocomplete Package for Atom.   \nAdds path autocompletion to autocomplete-tyranoscript depending on scope and prefix.\n\nThis package depends on [autocomplete-plus](https://github.com/atom-community/autocomplete-plus),  [autocomplete-tyranoscript](https://github.com/kuromame-kidune/autocomplete-tyranoscript).  \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuromame-kidune/autocomplete-tyranoscript-paths.git"
+  },
+  "version": "0.1.1"
+}
