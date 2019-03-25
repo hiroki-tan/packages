@@ -226,10 +226,6 @@
             }
             { 'type': 'separator' }
             {
-              'label': 'Open Link in File'
-              'command': 'markdown-writer:open-link-in-file'
-            }
-            {
               'label': 'Open Link in Browser'
               'command': 'markdown-writer:open-link-in-browser'
             }

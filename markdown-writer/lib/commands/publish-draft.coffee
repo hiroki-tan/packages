@@ -49,7 +49,6 @@ class PublishDraft
     return if @frontMatter.isEmpty
 
     @frontMatter.setIfExists("published", true)
-    @frontMatter.setIfExists("draft", false)
     @frontMatter.setIfExists("date", templateHelper.getFrontMatterDate(@dateTime))
 
     @frontMatter.save()

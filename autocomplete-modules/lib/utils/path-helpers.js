@@ -17,10 +17,6 @@ const pathHelpers = {
     return moduleName.endsWith('/') ? ''
       : moduleName.replace(path.dirname(moduleName), '').replace('/', '');
   },
-  getFileDir: (filePath) => {
-    const PATH_SLASH = process.platform === 'win32' ? '\\' : '/';
-    return filePath.substring(0, filePath.lastIndexOf(PATH_SLASH));
-  },
   getModuleDir: (moduleName, filePath) => {
     try {
       const filterPrefix = pathHelpers.extractPrefixFrom(moduleName);

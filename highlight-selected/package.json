@@ -1,25 +1,25 @@
 {
-  "_from": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-  "_id": "highlight-selected@0.15.0",
+  "_from": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+  "_id": "highlight-selected@0.14.0",
   "_inBundle": false,
-  "_integrity": "sha512-Sylx33CaUHq9w7Dw7/i9PxWeRz6HoswAvsXB1IV+EagVpdTIGxsoMKHrw4rlaDh0FXO6F358HJMIv8Rao9cW+w==",
+  "_integrity": "sha512-QAByVgzyjBze/7LylzrSFzDNmjTdlTEpH1UYgmtanHz5GqLauCTkeMAhlX2Aa/DfuaVg5XK3O0fkb2qTksw5hA==",
   "_location": "/highlight-selected",
   "_phantomChildren": {},
   "_requested": {
     "type": "remote",
-    "raw": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball"
+    "raw": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-  "_shasum": "b4c1cc2093ed1b0cf2445ee714fbb4e8f74bf7a6",
-  "_spec": "https://www.atom.io/api/packages/highlight-selected/versions/0.15.0/tarball",
-  "_where": "/private/var/folders/_y/v1257lyd0h9bp_tg7_ft36lc0000gn/T/apm-install-dir-119219-2466-dybl8r.psuyj",
+  "_resolved": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+  "_shasum": "3c8c2c838b70beec0a4b108a5f7356bd70bb8b24",
+  "_spec": "https://www.atom.io/api/packages/highlight-selected/versions/0.14.0/tarball",
+  "_where": "C:\\Users\\HIROKI~1\\AppData\\Local\\Temp\\apm-install-dir-1181019-1924-fy37sm.qn7u4",
   "bugs": {
     "url": "https://github.com/richrace/highlight-selected/issues"
   },
@@ -78,5 +78,5 @@
     "type": "git",
     "url": "git+https://github.com/richrace/highlight-selected.git"
   },
-  "version": "0.15.0"
+  "version": "0.14.0"
 }

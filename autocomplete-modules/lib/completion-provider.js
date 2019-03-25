@@ -17,8 +17,7 @@ const FilterLookupsByText = require('./utils/filter-lookups-by-text');
 const SELECTOR = [
   '.source.js',
   'javascript',
-  '.source.coffee',
-  '.source.flow'
+  '.source.coffee'
 ];
 const SELECTOR_DISABLE = [
   '.source.js .comment',

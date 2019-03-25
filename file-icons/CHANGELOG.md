@@ -3,50 +3,7 @@ Change Log
 All notable changes to the project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.31...HEAD
-
-
-[v2.1.31] - 2019-03-16
-----------------------
-### Added
-- **New icons:** ElementaryOS, Gravit Designer (`.gvdesign`), Manjaro, OpenIndiana, QT (`.qml`, `.qbs`, `.qmlproject`), Xubuntu, ZorinOS
-- **Directory support:** Cabal (`.cabal`), CPAN (`.cpan`), Deno (`.deno`), Vagrant (`.vagrant.d`)
-- **File support:** Sass (`.sassrc`, `.sassrc.js`)
-
-[v2.1.31]: https://github.com/file-icons/atom/releases/tag/v2.1.31
-
-
-
-[v2.1.30] - 2019-02-19
-----------------------
-### Added
-- **New icons:** AmigaOS, Anime Studio/Moho (`.anme`, `.{anime,moho}{action,brush,export,proj,style}`), Chocolatey (`chocolatey{*}.ps1`), Deno, DOSBox, DragonflyBSD, Flutter (`.flutter-plugins`), FreeDOS, illumos, Keybase (`keybase.txt`), Meson (updated logo), Modelica (`.mo`), MS-DOS, OpenBSD, OpenSolaris, OpenVPN (`.ovpn`), OS/2, pkgsrc, ReactOS, Red (updated logo), SmartOS, TempleOS
-- **Support:** Cabal (`cabal.*`, `cabal-ghcjs.project`), Go (`go.mod`, `go.sum`), Hack (`.hack`, `.hhi`), Images (`.pbm`, `.pgm`, `.ppm`, `.pnm`), JavaScript (`.cjs`), Manpage (`.3p`, `.3perl`, `.3pm`), Microsoft Excel (`.xla`, `.xlam`, `.xltm`, `.xltx`), Package (`.packages`, `pubspec.{lock,yaml}`), Separated-value file (`.prn`), Vim (`.vmb`), VirtualBox (`.ova`, `.ovf`, `.vhd`, `.vhdx`, `.vbox_version`), z/VM Assembly (`.PLX`, `.PLXCOPY`)
-- New colour swatch for greyscale icons
-
-# Changed
-- `.vhd` files now use VirtualBox icon instead of VHDL
-- Mercurial icons now use greyscale swatches
-
-[v2.1.30]: https://github.com/file-icons/atom/releases/tag/v2.1.30
-
-
-
-[v2.1.29] - 2019-01-26
-----------------------
-- **New icons:** Gatsby (`gatsby-*.{js,ts}`), Imba (new branding), Microsoft Project (`.mpp`, `.mpt`), Tailwind (`tailwind.{js,ts,coffee}`, `tailwind.config.{js,ts,coffee}`)
-- **Support:** 3D model (`.fnc`), Binary/Assembly (`.cnc`, `.dnc`, `.gc`, `.knc`), Bitbucket (`bitbucket-pipelines.yml`), GraphQL (`.graphqls`)
-
-[v2.1.29]: https://github.com/file-icons/atom/releases/tag/v2.1.29
-
-
-[v2.1.28] - 2019-01-15
-----------------------
-- **New icons:** Asymptote (`.asy`), Gridsome (`gridsome.config.{js,ts}`), San (`.san`), Yandex (`.yaspellerrc.*`, `.yaspeller.json`), Zig (`.zig`)
-- **Support:** Mocha (`.mocharc.{js,json,yml}`), TeX (`.pgf`, `.tikz`), Vue (`vue.config.js`), Xcode (`.xccheckout`, `.xcscheme`, `.xcscmblueprint`, `.xcsettings`, `.xcuserstate`, `.xcworkspacedata`)
-
-[v2.1.28]: https://github.com/file-icons/atom/releases/tag/v2.1.28
-
+[Unpublished]: https://github.com/file-icons/atom/compare/v2.1.27...HEAD
 
 
 [v2.1.27] - 2018-12-17

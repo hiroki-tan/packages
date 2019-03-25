@@ -127,10 +127,7 @@ class EditLine
 
     cursor = selection.getHeadBufferPosition()
     line = @editor.lineTextForBufferRow(cursor.row)
-
     lineMeta = new LineMeta(line)
-    # don't care about alpha list
-    return e.abortKeyBinding() if lineMeta.isList("al")
 
     if lineMeta.isList("ol")
       newline = "#{@editor.getTabText()}#{lineMeta.lineHead(lineMeta.defaultHead)}#{lineMeta.body}"
@@ -172,8 +169,6 @@ class EditLine
 
     line = @editor.lineTextForBufferRow(cursor.row)
     lineMeta = new LineMeta(line)
-    # don't care about alpha list
-    return e.abortKeyBinding() if lineMeta.isList("al")
 
     if lineMeta.isList("ol")
       newline = "#{lineMeta.lineHead(lineMeta.defaultHead)}#{lineMeta.body}"

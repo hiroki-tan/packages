@@ -136,14 +136,7 @@ class InsertLinkView extends View
 
   insertInlineLink: (link) ->
     text = templateHelper.create("linkInlineTag", link)
-
-    newRange = @editor.setTextInBufferRange(@range, text)
-    return unless config.get("foldInlineLinks")
-
-    newRange = newRange.copy()
-    newRange.start.column += link.text.length + 3 # [](
-    newRange.end.column -= 1 # )
-    @editor.foldBufferRange(newRange)
+    @editor.setTextInBufferRange(@range, text)
 
   updateReferenceLink: (link) ->
     if link.title # update the reference link
